@@ -1,0 +1,47 @@
+body{
+   background-image: url(https://img.freepik.com/premium-vector/vector-horizontal-seamless-illustration-forest-magical-mist_284645-954.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   min-height: 90vh;
+   background-position: center;
+}
+
+.runner-poi{
+   width: 120px;
+   height: 120px;
+   display: flex;
+   margin: auto;
+   justify-content: center;
+   align-items: center;
+   transform: translate(20%, 380%);
+   position: absolute;
+}
+.runner-poi:hover{
+   cursor: pointer;
+}
+.congrats{
+   display: none;
+   border: 5px solid rgb(176 176 176);
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding: 10px;
+   color: rgb(219, 227, 234);
+   background-color: rgba(166, 134, 134, 0.477);
+   height: 200px;
+   width: 50%;
+   text-align: center;
+}
+#congrats-message{
+   font-size: 20px;
+}
+#restart-btn{
+   width: 25%;
+   height: 30px;
+   font-size: 15px;
+}
+#restart-btn:hover{
+   transform: scale(1.05);
+   cursor: pointer;
+}
